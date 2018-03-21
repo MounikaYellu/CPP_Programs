@@ -1,0 +1,42 @@
+mounika@ubuntu:~/projects/CPP_Programs$ g++ Constructor_string_example.cpp 
+mounika@ubuntu:~/projects/CPP_Programs$ ./a.out
+Details of obj1:
+Vector
+7
+Address of obj10x7ffe3a44f130
+Details of obj2:
+Vector
+7
+Address of obj20x7ffe3a44f140
+Obj2 after modification
+Mounika
+8
+Address of obj20x7ffe3a44f140
+obj1:
+Mounika
+7
+Address of obj10x7ffe3a44f130
+in destructor:
+in destructor:
+mounika@ubuntu:~/projects/CPP_Programs$ gedit Constructor_string_example.cpp
+mounika@ubuntu:~/projects/CPP_Programs$ g++ -g Constructor_string_example.cpp
+mounika@ubuntu:~/projects/CPP_Programs$ ./a.out
+Details of obj1:
+Vector
+7
+Address of obj1  0x7ffe232740b0
+Details of obj2:
+Vector
+7
+Address of obj2  0x7ffe232740c0
+Obj2 after modification
+Mounika
+8
+Address of obj2  0x7ffe232740c0
+obj1:
+Vector
+7
+Address of obj1  0x7ffe232740b0
+in destructor:
+in destructor:
+
